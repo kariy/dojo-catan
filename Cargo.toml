@@ -13,9 +13,7 @@ parking_lot = "0.12.1"
 starknet = "0.6.0"
 tokio = { version = "1.33.0", features = [ "full" ] }
 
-# dojo-types = { git = "https://github.com/kariy/dojo", branch = "torii-client-send", version = "0.3.1" }
-# torii-client = { git = "https://github.com/kariy/dojo", branch = "torii-client-send", version = "0.3.1" }
+dojo-types = { git = "https://github.com/kariy/dojo", rev = "c7d48d2d" }
+torii-client = { git = "https://github.com/kariy/dojo", rev = "c7d48d2d" }
 
-dojo-types = { path = "../../work/dojoengine/dojo/crates/dojo-types" }
-torii-client = { path = "../../work/dojoengine/dojo/crates/torii/client" }
 url = "2.4.1"
